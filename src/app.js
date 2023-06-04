@@ -1,13 +1,11 @@
 /* eslint-disable */
 import "bootstrap";
 import "./style.css";
-
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
   let who = [
     "The dog",
     "My grandma",
@@ -59,9 +57,9 @@ window.onload = function() {
     "during my lunch",
     "while I was praying"
   ];
-  let elemento = document.getElementById("excusa");
+  let elementoExcusa = document.getElementById("excusa");
 
-  elemento.textContent =
+  elementoExcusa.textContent =
     who[Math.floor(Math.random() * 10)] +
     " " +
     action[Math.floor(Math.random() * 10)] +
